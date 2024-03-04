@@ -1,0 +1,31 @@
+p {
+    color: red;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+h2{
+    color: blue;
+    text-align: center;
+    font-family: Verdana;
+}
+#horario {
+    color:blueviolet;
+    text-align: center;
+}
+p.center{
+    text-align: center;
+}
+p.large{
+    text-size:300%;
+}
+h1, h2, p{
+    text-align: center;
+    color:red;
+
+}
+body{
+    background-color: pink;
+    background-image: ("hhttps://i.pinimg.com/736x/09/cc/0e/09cc0ee9ccf168b20017258289f9e426.jpg");
+    background-repeat: no-repeat;
+}
+
