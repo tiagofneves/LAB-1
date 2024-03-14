@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<style>
+    body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+header, main, footer {
+    text-align: center; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+    display: block; 
+    margin-bottom: 10px; 
+    width: 200px; 
+    height: 30px; 
+    font-size: 14px; 
+}
+
+button[type="submit"] {
+    width: auto; 
+    height: auto; 
+    font-size: 16px; 
+}
+</style>
+<body>
+    <a href="index.html" class="back-button">Voltar</a>
+    <header>
+        <h1>Registro</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Criar uma Nova Conta</h2>
+            <form action="">
+                <input type="text" placeholder="Nome de Usuário">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <label>
+                    <input type="checkbox" id="aceito_termos" required> Eu aceito os <a href="termos.html" target="_blank">termos de uso</a>
+                </label>
+                <button type="submit">Registrar</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
